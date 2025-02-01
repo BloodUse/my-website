@@ -3,45 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+    <title>Yuri Mkrtchyan's CV</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Email: your.email@example.com | Phone: (123) 456-7890</p>
+        <div class="container">
+            <h1 id="name">Yuri Mkrtchyan (Յուրի Մկրտչյան)</h1>
+            <p id="contact">Email: <a href="mailto:Yurimkrtchyan08@mail.ru">Yurimkrtchyan08@mail.ru</a> | Phone: +37494244018, +37499244018</p>
+        </div>
     </header>
-    <section>
-        <h2>Experience</h2>
-        <ul>
-            <li>
-                <h3>Job Title at Company</h3>
-                <p>Dates of Employment</p>
-                <p>Job Description and Responsibilities</p>
-            </li>
-            <!-- Add more job experiences as needed -->
-        </ul>
-    </section>
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <h3>Degree at Institution</h3>
-                <p>Dates of Attendance</p>
-                <p>Relevant Coursework or Achievements</p>
-            </li>
-            <!-- Add more education details as needed -->
-        </ul>
-    </section>
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
+    <nav>
+        <a href="#about" id="about-title">About Me</a>
+        <a href="#experience" id="experience-title">Experience</a>
+        <a href="#education" id="education-title">Education</a>
+        <a href="#skills" id="skills-title">Skills</a>
+        <a href="#projects" id="projects-title">Projects</a>
+        <a href="#armath" id="armath-title">Armath Engineering Labs</a>
+        <a href="#sevan-youth" id="sevan-youth-title">Sevan Youth Club</a>
+    </nav>
+    <div id="language-switcher">
+        <button data-lang="en">EN</button>
+        <button data-lang="ru">RU</button>
+        <button data-lang="hy">AM</button>
+    </div>
+    <main class="container">
+        <section id="about" class="section">
+            <div class="bubble irregular">
+                <img src="https://via.placeholder.com/100" alt="Your Photo">
+                <p id="about-text">Born on June 1, 2008. I am a student at Sevan Multi-Functional State College, studying Software Engineering. Fluent in Armenian and Russian, with basic knowledge of English and Ukrainian. I have a strong interest in technology and programming. I attended the Tumo Center for Creative Technologies for a year, completed several online programming courses such as BBC Micro:Bit, Python, HTML/CSS, and have been attending the Armath Engineering Laboratories since a young age. Various hobbies including playing guitar and piano, skilled in teamwork and leadership. Attended the military survival school ՈՄԱ for about a year and a half and have been an active volunteer for the last six months. Volunteer at the Sevan Youth Club NGO, participated in organizing SIMF 2022 and SIMF 2023, helped create a small park in my city (Sevan), and worked on various projects related to environmental protection, non-formal education, and art. Open to job offers and happy to discuss any opportunities.</p>
+            </div>
+        </section>
+        <section id="experience" class="section">
+            <div class="bubble irregular experience">
+                <img src="https://via.placeholder.com/100" alt="Experience">
+                <p id="experience-list">Not worked professionally yet.</p>
+            </div>
+        </section>
+        <section id="education" class="section">
+            <div class="bubble irregular">
+                <img src="https://via.placeholder.com/100" alt="Education">
+                <p id="education-list">Graduated from Sevan V. Karapetyan School No. 3 with honors in 2023 and currently studying at Sevan Multi-Functional State College. Attended the Tumo Center for Creative Technologies for a year and have been attending the Armath Engineering Laboratories since a young age.</p>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <div class="bubble irregular">
+                <img src="https://via.placeholder.com/100" alt="Skills">
+                <p id="skills-list">Fluent in Armenian and Russian, basic knowledge of English and Ukrainian. Various hobbies including playing guitar and piano, skilled in teamwork and leadership.</p>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <div class="bubble irregular">
+                <img src="https://via.placeholder.com/100" alt="Projects">
+                <p id="projects-list">Participated in various projects and competitions, including organizing SIMF 2022 and SIMF 2023, creating 3D models for exhibitions, and working on robotics and programming competitions.</p>
+            </div>
+        </section>
+        <section id="armath" class="section programming">
+            <h2>Armath Engineering Labs</h2>
+            <div class="bubble irregular programming">
+                <p>Details about Armath Engineering Labs...</p>
+                <img src="https://via.placeholder.com/100" alt="Armath Engineering Labs">
+            </div>
+        </section>
+        <section id="sevan-youth" class="section volunteering">
+            <h2>Sevan Youth Club</h2>
+            <div class="bubble irregular volunteering">
+                <p>Details about Sevan Youth Club...</p>
+                <img src="https://via.placeholder.com/100" alt="Sevan Youth Club">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Yuri Mkrtchyan. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="scripts/app.js"></script>
 </body>
 </html>
