@@ -1,0 +1,11 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "A simple website project",
+  "main": "index.html",
+  "scripts": {
+    "start": "open src/index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
